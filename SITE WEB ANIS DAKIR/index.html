@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo"></a>
+        <div class="nav-links">
+            <ul>
+                <br><br><br><br><br><br><br>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="miketyson.html">Mike Tyson</a></li>
+                <li><a href="cristianoronaldo.html">Cristiano Ronaldo</a></li>
+                <li><a href="lionelmessi.html">Lionel Messi</a></li>
+                <li><a href="abedipele.html">Abedi Pelé</a></li>
+                <li><a href="infos.html">Infos</a></li>
+                <li><a href="mailto:anis.dakir@outlook.be">Contact</a></li>
+                <li><a href="https://paypal.me/anisdakir?country.x=BE&locale.x=fr_FR">Dons</a></li>
+
+            </ul>
+        </div>
+        <img src="images/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <header><main>
+    <section class="presentation">
+        <div class="container">
+            <h1>Bienvenue sur notre site</h1>
+        <br>
+        <br>
+        <br>
+        <br><br><br><br>
+            <p>
+                Découvrez le monde passionnant des célébrités du sport. Notre site est dédié à certaines des plus grandes stars du football et de la boxe, notamment Cristiano Ronaldo, Lionel Messi, Mike Tyson et Abedi Pelé.
+            </p>
+            <br>
+            <p>
+                Explorez leurs carrières, découvrez leurs réalisations exceptionnelles et plongez dans l'univers captivant de ces légendes du sport. Nous vous offrons des informations complètes, des vidéos exclusives et bien plus encore.
+            </p>
+            <br>
+            <p>
+                Naviguez à travers notre site pour en savoir plus sur ces icônes du sport, et n'hésitez pas à nous contacter pour toute question ou demande d'information supplémentaire. Nous espérons que votre visite sur notre site sera aussi passionnante que le monde du sport lui-même.
+            </p>
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </section>
+</main>
+</header>
+
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+</body>
+</html>

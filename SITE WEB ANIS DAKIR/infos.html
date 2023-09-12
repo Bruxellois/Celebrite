@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mike Tyson</title>
+    <link rel="stylesheet" type="text/css" href="stars.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Stars Du Football</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li class="active"><a href="miketyson.html">Mike Tyson</a></li>
+                <li><a href="cristianoronaldo.html">Cristiano Ronaldo</a></li>
+                <li><a href="lionelmessi.html">Lionel Messi</a></li>
+                <li><a href="abedipele.html">Abedi Pelé</a></li>
+                <li><a href="infos.html">Infos</a></li>
+                <li><a href="mailto:anis.dakir@outlook.be">Contact</a></li>
+                <li><a href="https://paypal.me/anisdakir?country.x=BE&locale.x=fr_FR">Dons</a></li>
+            </ul>
+        </div>
+        <img src="images/menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+    </nav>
+
+    <header></header>
+
+    <main>
+        <section class="presentation">
+            <div class="container">
+                 <h1>À Propos de Notre Site Web</h1>
+            <br>
+            <br>
+            <br>
+            <p>
+                Bienvenue sur notre site web dédié aux célébrités ! Notre plateforme a été créée dans le but de vous fournir des informations fascinantes sur certaines des personnalités les plus emblématiques du monde, que ce soit dans le domaine du sport, du divertissement ou d'autres domaines.
+            </p>
+            <br>
+            <p>
+                Notre mission est de vous offrir un aperçu détaillé de la vie, de la carrière et des réalisations de ces célébrités, le tout présenté de manière informative et divertissante. Que vous soyez fan de sport, de cinéma, de musique ou simplement curieux de connaître les personnes qui ont marqué l'histoire, notre site est conçu pour vous.
+            </p>
+            <br>
+            <p>
+                Vous trouverez sur notre site des pages dédiées à différentes célébrités, chacune comportant des informations exclusives, des faits intéressants et des anecdotes sur leur parcours. Nous mettons un accent particulier sur la narration captivante, illustrée par des images et des éléments visuels soigneusement sélectionnés.
+            </p>
+            <br>
+            <p>
+                En plus de découvrir les détails biographiques de vos célébrités préférées, vous pourrez également accéder à des liens utiles, des informations de contact et même soutenir notre site grâce à des dons. Nous sommes déterminés à maintenir notre site web actif et à continuer à vous fournir des contenus de qualité.
+            </p>
+            <br>
+            <p>
+                Nous espérons que vous apprécierez votre visite sur notre site web et que vous trouverez les informations que vous recherchez. N'hésitez pas à nous contacter pour toute question ou suggestion, car nous attachons une grande importance à vos commentaires. Merci de votre intérêt pour notre site web dédié aux célébrités !
+            </p>
+            <br>
+            <br>
+            Cliquer <a href="index.html"> ICI </a>pour revenir en arrière.
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+</body>
+</html>
